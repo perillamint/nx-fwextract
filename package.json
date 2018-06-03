@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "foo"
+    "url": "https://github.com/perillamint/nx-fwextract.git"
   },
   "keywords": [
     "Nintendo",
