@@ -1,0 +1,7 @@
+input:
+  wlan_elf: '../wlan-510.elf'
+  bt_elf: '../bt-510.elf'
+output:
+  wlan_caldata_file: './vendor/brcmfmac4356a3-pcie.txt'
+  wlan_firmware_file: './vendor/brcmfmac4356a3-pcie.bin'
+  bt_firmware_file: './vendor/BCM4356A3.hcd'

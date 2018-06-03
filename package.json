@@ -1,0 +1,26 @@
+{
+  "name": "nx-fwextract",
+  "version": "1.0.0",
+  "description": "Nintendo Switch broadcom FW extractor",
+  "main": "index.js",
+  "dependencies": {
+    "elfy": "^0.1.0",
+    "hexy": "^0.2.11",
+    "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "foo"
+  },
+  "keywords": [
+    "Nintendo",
+    "NintendoSwitch",
+    "Broadcom"
+  ],
+  "author": "perillamint",
+  "license": "GPL-3.0"
+}
