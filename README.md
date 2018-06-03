@@ -37,5 +37,8 @@ node index.js
 
 It will put its result in `vendor` folder in this repository. You can use this firmwares to make Linux WLAN/BT works more stable.
 
+## Special thanks
+https://github.com/kiding/ for initial research of wlan system title.
+
 ## License
 You can use this project's code under GPL-3.0 license.
