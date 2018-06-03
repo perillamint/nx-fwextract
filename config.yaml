@@ -1,6 +1,6 @@
 input:
-  wlan_elf: '../wlan-510.elf'
-  bt_elf: '../bt-510.elf'
+  wlan_elf: './elf/wlan.elf'
+  bt_elf: './elf/bt.elf'
 output:
   wlan_caldata_file: './vendor/brcmfmac4356a3-pcie.txt'
   wlan_firmware_file: './vendor/brcmfmac4356a3-pcie.bin'

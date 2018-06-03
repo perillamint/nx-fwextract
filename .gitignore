@@ -1,2 +1,6 @@
 node_modules/
 vendor/
+nca/*.nca
+bt-exefs/
+wlan-exefs/
+elf/
