@@ -89,7 +89,7 @@ for (let i = 0; i < bt.body.sections.length; i++) {
 // VERY HACKY EXTRACTION
 // TODO: Do extraction in proper way
 
-const btfw_off = bt_rodata.indexOf('4CFCCC42', 'hex');
+const btfw_off = bt_rodata.indexOf('4CFC4600', 'hex');
 const btfw_end = bt_rodata.indexOf('FC04FFFFFFFF', 'hex') + 6;
 
 assert(btfw_off > 0);
