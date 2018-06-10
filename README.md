@@ -9,10 +9,14 @@ You can use extracted result by embedding into Switch Linux kernel or put it in 
 #### Requirements
 You should have Node.JS and NPM on your system to run this tool.
 
+#### Derieve keydb from sytem image
+
+1. use `tools/kezplez.py` to derieve keys from system image dump (Note that you will need `mmcblk1boot0.img` and `mmcblk1p3.img`)
+
 #### System title extraction
 First, you have to extract `010000000000000b.nca` and `0100000000000016.nca` from your Nintendo Switch.
 
-you should have Nintendo Switch KeyDB file. You can get those 'illegal numbers' database by googling its name.
+you should have Nintendo Switch KeyDB file. You can derieve those 'Illegal numbers' database using `tools/kezplez.py`
 
 You can get this file by following this procedure:
 
